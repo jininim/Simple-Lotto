@@ -1,4 +1,4 @@
-package com.example.lotto.ui.pension.statistics
+package com.simple.lotto.ui.pension.statistics
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.lotto.databinding.FragmentPensionStatisticsBinding
+import com.simple.lotto.databinding.FragmentPensionStatisticsBinding
 
 class PensionStatisticsFragment: Fragment() {
 

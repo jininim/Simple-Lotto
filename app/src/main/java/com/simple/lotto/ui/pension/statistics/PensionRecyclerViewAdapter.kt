@@ -1,4 +1,4 @@
-package com.example.lotto.ui.pension.statistics
+package com.simple.lotto.ui.pension.statistics
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lotto.R
+import com.simple.lotto.R
 
 class PensionRecyclerViewAdapter(private val itemList: ArrayList<Int>, private val i : Int) :RecyclerView.Adapter<PensionRecyclerViewAdapter.ViewHolder>(){
 

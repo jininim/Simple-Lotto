@@ -1,4 +1,4 @@
-package com.example.lotto.ui.lotto
+package com.simple.lotto.ui.lotto
 
 import android.app.Dialog
 import android.content.Context
@@ -6,8 +6,8 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.widget.TextView
 import android.widget.Toast
-import com.example.lotto.R
-import com.example.lotto.databinding.DialogCustomFixBinding
+import com.simple.lotto.R
+import com.simple.lotto.databinding.DialogCustomFixBinding
 
 class DialogFix(
     private val context: Context,
@@ -107,7 +107,7 @@ class DialogFix(
     }
     private lateinit var onClickListener: ButtonClickListener
 
-    fun setOnClickListener(listener: DialogFix.ButtonClickListener){
+    fun setOnClickListener(listener: ButtonClickListener){
         onClickListener = listener
     }
 

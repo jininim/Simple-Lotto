@@ -1,4 +1,4 @@
-package com.example.lotto.ui.lotto.statistics
+package com.simple.lotto.ui.lotto.statistics
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.lotto.databinding.FragmentStatisticsBinding
+import com.simple.lotto.databinding.FragmentStatisticsBinding
 
 
 class StatisticsFragment : Fragment() {
@@ -31,6 +31,7 @@ class StatisticsFragment : Fragment() {
 
         lottoViewModel.updateText()
 
+        //직전회차 번호
         lottoViewModel.lottoNumber1.observe(viewLifecycleOwner, Observer {
             lottoViewModel.setNumberBackGround(it[0].toInt(),binding.pastNum1)
             lottoViewModel.setNumberBackGround(it[1].toInt(),binding.pastNum2)
@@ -41,6 +42,7 @@ class StatisticsFragment : Fragment() {
             lottoViewModel.setNumberBackGround(it[6].toInt(),binding.pastNum7)
             binding.oper.isVisible = true
         })
+        //번호별 통계
         lottoViewModel.num.observe(viewLifecycleOwner) {
             binding.Recycler.adapter = RecycleAdapter(it)
         }

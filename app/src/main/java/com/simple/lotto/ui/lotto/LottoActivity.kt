@@ -1,12 +1,12 @@
-package com.example.lotto.ui.lotto
+package com.simple.lotto.ui.lotto
 
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
-import com.example.lotto.R
-import com.example.lotto.databinding.ActivityLottoBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.simple.lotto.R
+import com.simple.lotto.databinding.ActivityLottoBinding
 
 
 class LottoActivity : AppCompatActivity() {

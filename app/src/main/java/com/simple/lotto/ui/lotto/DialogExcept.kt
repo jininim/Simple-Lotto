@@ -1,4 +1,4 @@
-package com.example.lotto.ui.lotto
+package com.simple.lotto.ui.lotto
 
 import android.app.Dialog
 import android.content.Context
@@ -6,8 +6,8 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.widget.TextView
 import android.widget.Toast
-import com.example.lotto.R
-import com.example.lotto.databinding.DialogCustomBinding
+import com.simple.lotto.R
+import com.simple.lotto.databinding.DialogCustomBinding
 
 class DialogExcept(
     private val context: Context,

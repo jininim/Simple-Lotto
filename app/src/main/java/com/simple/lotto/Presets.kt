@@ -1,4 +1,4 @@
-package com.example.lotto
+package com.simple.lotto
 
 import nl.dionsegijn.konfetti.core.*
 import nl.dionsegijn.konfetti.core.emitter.Emitter

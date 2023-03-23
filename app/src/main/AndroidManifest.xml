@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".ui.lotto.LottoActivity"
+            android:name="com.simple.lotto.ui.lotto.LottoActivity"
             android:exported="false"
             android:label="@string/title_activity_main">
             <meta-data
@@ -24,14 +24,14 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ui.pension.PensionActivity"
+            android:name="com.simple.lotto.ui.pension.PensionActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".IntroActivity"
+            android:name="com.simple.lotto.IntroActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,7 +43,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".ui.WebViewActivity" />
+        <activity android:name="com.simple.lotto.ui.WebViewActivity" />
     </application>
 
 </manifest>

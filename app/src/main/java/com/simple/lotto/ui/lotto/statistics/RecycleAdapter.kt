@@ -1,4 +1,4 @@
-package com.example.lotto.ui.lotto.statistics
+package com.simple.lotto.ui.lotto.statistics
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.lotto.R
+import com.simple.lotto.R
 
 class RecycleAdapter(private val itemList: ArrayList<String>): RecyclerView.Adapter<RecycleAdapter.ViewHolder>() {
     // (1) 아이템 레이아웃과 결합

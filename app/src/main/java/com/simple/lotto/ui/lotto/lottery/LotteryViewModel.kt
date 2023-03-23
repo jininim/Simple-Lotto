@@ -1,4 +1,4 @@
-package com.example.lotto.ui.lotto.lottery
+package com.simple.lotto.ui.lotto.lottery
 
 import android.annotation.SuppressLint
 import android.app.Application
@@ -9,11 +9,11 @@ import androidx.core.view.isVisible
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.lotto.R
-import com.example.lotto.ui.lotto.DialogExcept
-import com.example.lotto.ui.lotto.DialogFix
+import com.simple.lotto.R
+import com.simple.lotto.ui.lotto.DialogExcept
+import com.simple.lotto.ui.lotto.DialogFix
 
-class HomeViewModel(application: Application) : AndroidViewModel(application) {
+class LotteryViewModel(application: Application) : AndroidViewModel(application) {
     @SuppressLint("StaticFieldLeak")
     private val context = getApplication<Application>().applicationContext
 
@@ -57,6 +57,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     @SuppressLint("UseRequireInsteadOfGet")
     fun setNumberBackGround(number: Int, textView: TextView){
+        textView.text = number.toString()
         when(number){ // 숫자별로 색깔 꾸미기
             in 1..10 -> textView.background = ContextCompat.getDrawable(context, R.drawable.circle_yello)
             in 11..20 -> textView.background = ContextCompat.getDrawable(context, R.drawable.circle_blue)

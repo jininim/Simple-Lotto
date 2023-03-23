@@ -1,11 +1,11 @@
-package com.example.lotto.ui.lotto.statistics
+package com.simple.lotto.ui.lotto.statistics
 
 import android.widget.TextView
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.lotto.R
 import com.google.gson.JsonParser
+import com.simple.lotto.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

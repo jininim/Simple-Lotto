@@ -1,11 +1,11 @@
-package com.example.lotto.ui
+package com.simple.lotto.ui
 
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
-import com.example.lotto.R
+import com.simple.lotto.R
 
 
 class WebViewActivity : AppCompatActivity() {

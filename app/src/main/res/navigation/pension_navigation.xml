@@ -6,13 +6,13 @@
     app:startDestination="@id/navigation_pension">
     <fragment
         android:id="@+id/navigation_pension"
-        android:name="com.example.lotto.ui.pension.pension.PensionFragment"
+        android:name="com.simple.lotto.ui.pension.pension.PensionFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_pension" />
 
     <fragment
         android:id="@+id/navigation_statistics"
-        android:name="com.example.lotto.ui.pension.statistics.PensionStatisticsFragment"
+        android:name="com.simple.lotto.ui.pension.statistics.PensionStatisticsFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_pension_statistics" />
 </navigation>
