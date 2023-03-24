@@ -14,5 +14,14 @@
 * 로또 번호 추첨시에는 제외수, 고정수를 통해 사용자가 원하는 번호를 추첨 할 수 있도록 기능을 제공합니다.
 * 로또 판매점 위치를 제공합니다.
 
+Playstore : https://play.google.com/store/apps/details?id=com.simple.lotto
+
+
+
 
 ![clear](https://user-images.githubusercontent.com/91578450/225926371-3e03c020-3afe-4db6-9d2d-bbc902607c3f.png)
+
+
+
+
+
