@@ -1,5 +1,7 @@
 # Simple 로또 : 간단한 로또번호 추첨앱
+
 개발기간 : 2023.01.11 ~ 2023.3.17 (2개월)
+
 사용 언어 및 라이브러리 : Kotlin , MVVM , Databinding , Coroutine , GSon , Konfetti(애니메이션) , Jsoup(웹 크롤링)
 
 
