@@ -3,7 +3,6 @@ package com.simple.lotto
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.databinding.DataBindingUtil
 import com.simple.lotto.databinding.ActivityIntroBinding
 import com.simple.lotto.ui.WebViewActivity
 import com.simple.lotto.ui.lotto.LottoActivity
@@ -14,12 +13,20 @@ class IntroActivity : AppCompatActivity() {
     private lateinit var binding: ActivityIntroBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_intro)
-        binding.activity = this
-        //konfetti 애니메이션 실행
+        binding = ActivityIntroBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+//        konfetti 애니메이션 실행
         binding.konfettiView.start(Presets.parade())
 
-
+        binding.buttonLotto.setOnClickListener {
+            showLottoActivity()
+        }
+        binding.buttonPension.setOnClickListener {
+            showPensionActivity()
+        }
+        binding.webViewButton.setOnClickListener {
+            showWebView()
+        }
     }
     //로또 버튼 클릭시 LottoActivity로 이동
     fun showLottoActivity(){

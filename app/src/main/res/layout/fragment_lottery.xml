@@ -100,7 +100,7 @@
 
             <Button
                 android:id="@+id/delNum"
-                android:layout_width="70dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
@@ -113,7 +113,7 @@
 
             <Button
                 android:id="@+id/fixNum"
-                android:layout_width="70dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="5dp"
