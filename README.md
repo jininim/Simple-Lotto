@@ -20,7 +20,8 @@ Playstore : https://play.google.com/store/apps/details?id=com.simple.lotto
 
 
 
-![clear](https://user-images.githubusercontent.com/91578450/225926371-3e03c020-3afe-4db6-9d2d-bbc902607c3f.png)
+![전체](https://user-images.githubusercontent.com/91578450/234804453-054e0e44-9e27-48b0-b4cb-965f3d26b5f6.png)
+
 
 
 
