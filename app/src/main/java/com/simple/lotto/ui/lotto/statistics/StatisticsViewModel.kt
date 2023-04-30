@@ -23,6 +23,7 @@ class DashboardViewModel : ViewModel() {
         get() = _num
 
     fun updateText(){
+
         CoroutineScope(Dispatchers.IO).launch {
             val pastLottoNumber = getLottoNumbers()
             val number = getStatistics()
@@ -62,7 +63,7 @@ private fun getStatistics(): ArrayList<String> {
 
 //직전회차 로또 당첨 번호 가져오기
 private fun getLottoNumbers(): ArrayList<String> {
-    var round = 1054
+    var round = 1062
     while (true){
 
         val url = "https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=${round.toString()}"

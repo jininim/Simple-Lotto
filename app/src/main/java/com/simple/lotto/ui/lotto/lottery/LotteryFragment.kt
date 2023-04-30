@@ -9,16 +9,19 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.simple.lotto.R
 import com.simple.lotto.databinding.FragmentLotteryBinding
 
 class LotteryFragment : Fragment() {
 
     private var _binding: FragmentLotteryBinding? = null
+    private var mInterstitialAd: InterstitialAd? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -29,6 +32,12 @@ class LotteryFragment : Fragment() {
         //뷰모델 연결
         val lottoViewModel =
             ViewModelProvider(this)[LotteryViewModel::class.java]
+
+
+
+
+
+
 
         //제외 수 버튼 클릭
         binding.delNum.setOnClickListener {
@@ -41,7 +50,9 @@ class LotteryFragment : Fragment() {
 
         //추첨 번호 클릭시
         binding.start.setOnClickListener {
+
             lottoViewModel.updateText()
+
         }
         //제외수
         lottoViewModel.exceptNumber.observe(viewLifecycleOwner) {

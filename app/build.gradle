@@ -11,8 +11,8 @@ android {
         applicationId "com.simple.lotto"
         minSdk 21
         targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "3.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -60,6 +60,9 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.9'
     //애니메이션 콘티
     implementation 'nl.dionsegijn:konfetti-xml:2.0.2'
+
+    //광고 SDK
+    implementation 'com.google.android.gms:play-services-ads:22.0.0'
 
     //jsoup 라이브러리 웹 크롤링
     implementation("org.jsoup:jsoup:1.15.4")

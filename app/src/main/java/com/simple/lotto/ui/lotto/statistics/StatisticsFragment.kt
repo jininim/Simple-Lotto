@@ -18,6 +18,7 @@ class StatisticsFragment : Fragment() {
 
     private val binding get() = _binding!!
 
+
     @SuppressLint("SetTextI18n", "NotifyDataSetChanged")
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -25,9 +26,12 @@ class StatisticsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         _binding = FragmentStatisticsBinding.inflate(inflater, container, false)
+
         //뷰모델 연결
         val lottoViewModel =
             ViewModelProvider(this)[DashboardViewModel::class.java]
+
+        //광고
 
         lottoViewModel.updateText()
 

@@ -16,6 +16,9 @@ class PensionStatisticsFragment: Fragment() {
     private  var _binding: FragmentPensionStatisticsBinding? = null
     private val binding get() = _binding!!
 
+
+
+
     @SuppressLint("NotifyDataSetChanged", "SetTextI18n")
     override fun onCreateView(
         inflater: LayoutInflater,

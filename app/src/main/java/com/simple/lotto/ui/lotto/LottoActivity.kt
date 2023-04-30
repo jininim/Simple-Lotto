@@ -13,6 +13,7 @@ class LottoActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityLottoBinding
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -22,6 +23,7 @@ class LottoActivity : AppCompatActivity() {
         val navView: BottomNavigationView = binding.navView
         //바텀 네비게이션 아이템 색상 없애기
         navView.itemIconTintList = null
+
 
         val navController = findNavController(R.id.nav_host_fragment_activity_main)
 
