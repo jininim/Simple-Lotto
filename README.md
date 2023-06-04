@@ -2,9 +2,9 @@
 
 개발기간 : 2023.01.11 ~ 2023.3.17
 
-개발 인원 : 2명
+인력구성 : 2명
 
-사용 언어 및 라이브러리 : Kotlin , Databinding , Coroutine , GSon , Konfetti(애니메이션) , Jsoup(웹 크롤링)
+기술 스택 : Kotlin , Databinding , Coroutine , GSon , Konfetti(애니메이션) , Jsoup
 
 
 ## 제공 기능
